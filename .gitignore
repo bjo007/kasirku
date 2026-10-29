@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Database & runtime (dibuat otomatis saat aplikasi dijalankan)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Build
+build/
+dist/
+*.spec.bak
+.buildozer/
+bin/*.apk
+_smoke_mobile_data/
+
+# OS
+.DS_Store
+Thumbs.db

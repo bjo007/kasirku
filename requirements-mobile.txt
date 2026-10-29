@@ -1,0 +1,11 @@
+# Kasir Warung Pintar — dependensi MOBILE (Android via Buildozer)
+# Dipakai buildozer.spec; JANGAN dipasang pip di desktop.
+# Di desktop gunakan requirements.txt (PySide6).
+
+kivy==2.3.1
+kivymd==2.0.0
+sqlalchemy>=2.0
+materialyoucolor
+filetype
+asyncgui
+asynckivy
